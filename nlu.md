@@ -1,0 +1,219 @@
+## intent:order_pizza_address
+- My address is [123 Evergreen Terrace, Springfield](pizza_del_address)
+- [123 Evergreen Terrace, Springfield](pizza_del_address)
+- address [123 Evergreen Terrace, Springfield](pizza_del_address)
+- note down address [123 Evergreen Terrace, Springfield](pizza_del_address)
+- [sector 62, noida](pizza_del_address)
+- [noida](pizza_del_address)
+
+## intent:order_pizza_confirm
+- ok
+- yes
+- yes please
+- great
+- ok thank you
+- ok thanks
+- ok, sure
+
+## intent:order_pizza_greetings
+- good evening
+- good evening to you
+- hey good evening
+- hello good evening
+- evening
+- good evening there
+- good morning
+- good morning to you
+- hello good morning
+- have a nice morning
+- have a great morning
+- morning
+- good morning there
+- top of the morning to you
+- a good morning
+- hi good morning
+- and a good morning to you
+- good morning too
+- sweet dreams
+- good night
+- have a good night
+- good night to you
+- thank you good night
+- bye good night
+- good night bye
+- good good night
+- good night for now
+- goodnight
+- night
+- thanks goodnight
+- good night see you tomorrow
+- alright goodnight
+- good tonight
+- okay have a good night
+- long time no see
+- hello
+- hi
+- howdy
+- hey there
+- hey
+- greetings
+- I greet you
+- hi there
+- hello there
+- lovely day isn't it
+- hello again
+- just going to say hi
+- a good day
+- afternoon
+- hello hi
+- heya
+
+## intent:order_pizza_greetings_bye
+- okay see you later
+- hope to see you later
+- bye for now
+- till next time
+- I must go
+- bye
+- goodbye
+- see you
+- see you soon
+- bye-bye
+- good bye
+- bye bye see you
+- bye bye see you soon
+- bye bye take care
+- I said bye
+- never mind bye
+- now bye
+- that's all goodbye
+- that's it goodbye
+- leave me alone
+- go to bed
+- goodbye for now
+- talk to you later
+- you can go now
+- get lost
+- goodbye see you later
+- alright bye
+- see ya
+- thanks bye bye
+- okay bye
+- okay thank you bye
+- see you tomorrow
+- ok bye
+
+## intent:order_pizza_provide_all
+- I want to order [large](size) pizza with [olives](topping)
+- I like [small](size) [olvs](topping:olives) pizza
+- [pepperoni](topping) [smll](size:small) pizza
+- wnt to oder [lrg](size:large) [chezze](topping:cheese) piza
+- wnt to odr [mdim](size:medium) [tamatas](topping:tomatoes) pija
+- wnt to ordr [least](size:small) [carn](topping:corn) pijja
+- wont [laarg](size:large) [peper](topping:pepperoni) pijaa
+- wnt [mdm](size:medium) [onins](topping:onions) piza
+
+## intent:order_pizza_provide_none
+- pizza
+- i want pizza
+- may i have a pizza
+- i need pizza
+- lemme have pizza
+- ndikuda pizza
+- ngifun ipizza
+- ndoda pizzza
+- will have a pizza
+- me want pizza
+- order pizza
+- i want to order pizza
+- make a pizza order
+- some pizza
+- order
+- am hungry
+- hungry
+- i want lunch
+- i want to eat
+- i wnt pizza
+- may i hv pizza
+- i wnt order pizza
+- i nid sm pizza
+- i wnt to eat
+- i want piza
+- Hello, I’d like to order a pizza, please.
+
+## intent:order_pizza_provide_size
+- [large](pizza_size)
+- I want [large](pizza_size)
+- I want to order [large](pizza_size)
+- I like to order [large](pizza_size)
+- I would like to order [large](pizza_size)
+- take order for [large](pizza_size)
+- provide [large](pizza_size)
+- [large](pizza_size) will be good
+- [large](pizza_size) is good
+- [large](pizza_size) is good to go
+- ok write down [large](pizza_size)
+- ok give me [large](pizza_size)
+- ok deliver [large](pizza_size)
+- deliver [large](pizza_size)
+- [large](pizza_size) one
+- deliver [large](pizza_size) one
+- take order for [large](pizza_size) one
+- write down [large](pizza_size) one
+- write [large](pizza_size) one
+- I like to order [large](pizza_size) one
+- I would like to order [large](pizza_size) one
+- please provide [large](pizza_size)
+- please provide [large](pizza_size) one
+- please send me [large](pizza_size) one
+- [small](pizza_size)
+
+## intent:order_pizza_provide_toppings
+- [onion](pizza_toppings)
+- I want [onion](pizza_toppings)
+- I want to order [onion](pizza_toppings)
+- I like to order [onion](pizza_toppings)
+- I would like to order [onion](pizza_toppings)
+- take order for [onion](pizza_toppings)
+- provide [onion](pizza_toppings)
+- [onion](pizza_toppings) will be good
+- [onion](pizza_toppings) is good
+- [onion](pizza_toppings) is good to go
+- ok write down [onion](pizza_toppings)
+- ok give me [onion](pizza_toppings)
+- ok deliver [onion](pizza_toppings)
+- deliver [onion](pizza_toppings)
+- [onion](pizza_toppings) one
+- deliver [onion](pizza_toppings) one
+- take order for [onion](pizza_toppings) one
+- write down [onion](pizza_toppings) one
+- write [onion](pizza_toppings) one
+- I like to order [onion](pizza_toppings) one
+- I would like to order [onion](pizza_toppings) one
+- please provide [onion](pizza_toppings)
+- please provide [onion](pizza_toppings) one
+- please send me [onion](pizza_toppings) one
+- [corn](pizza_toppings)
+- [paneer](pizza_toppings)
+
+## intent:order_pizza_provide_type
+- [Margherita](pizza_type)
+- I want [Margherita](pizza_type)
+- I want to order [Margherita](pizza_type)
+- I like to order [Margherita](pizza_type)
+- I would like to order [Margherita](pizza_type)
+- take order for [Margherita](pizza_type)
+- provide [Margherita](pizza_type)
+- [Margherita](pizza_type) will be good
+- [Margherita](pizza_type) is good
+- [Margherita](pizza_type) is good to go
+- ok write down [Margherita](pizza_type)
+- ok give me [Margherita](pizza_type)
+- ok deliver [Margherita](pizza_type)
+- deliver [Margherita](pizza_type)
+- [Veg Extravaganza](pizza_type)
+- [Veg Extravaganza](pizza_type:veg extravaganza)
+- [veg extravaganza](pizza_type)
+
+## intent:user_address
+- Enter your current address
