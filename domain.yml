@@ -1,0 +1,47 @@
+actions:
+- utter_iamabot
+- utter_order_pizza_ask_address
+- utter_order_pizza_ask_help
+- utter_order_pizza_ask_size
+- utter_order_pizza_ask_toppings
+- utter_order_pizza_ask_type
+- utter_order_pizza_bye
+- utter_order_pizza_confirm_order
+- utter_see_you
+entities:
+- pizza_del_address
+
+intents:
+- order_pizza_address
+- order_pizza_greetings
+- order_pizza_provide_none
+- order_pizza_greetings_bye
+- order_pizza_provide_toppings
+- order_pizza_provide_size
+- order_pizza_confirm
+- order_pizza_provide_type
+- cold_drink_pizza
+- order_pizza_provide_all
+templates:
+  utter_iamabot:
+  - text: "I am a bot powered by StarTele logic"
+  utter_order_pizza_ask_address:
+  - text: "Hey! enter your current address"
+  utter_order_pizza_ask_help:
+  - text: "Hey! how can i help you?"
+  utter_order_pizza_ask_size:
+  - text: "please select the pizza size"
+  - text: "Please select large, medium and small types pizza" 
+  utter_order_pizza_ask_toppings:
+  - text: "please select you pizza toppings likes paneer, onion and other"
+  utter_order_pizza_ask_type:
+  - text: "Please select pizza types likes veg and non veg"
+  utter_order_pizza_confirm_order:
+  - text: "Thank you for the pizza order!" 
+  utter_order_pizza_bye:
+  - text: "Bye! good to you"
+  utter_see_you:
+  - text: "See you"
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
