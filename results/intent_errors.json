@@ -1,0 +1,10 @@
+[
+  {
+    "text": "i want to order cold drink with pizza",
+    "intent": "cold_drink_pizza",
+    "intent_prediction": {
+      "name": "pizza_cold_drink",
+      "confidence": 0.3456949293613434
+    }
+  }
+]

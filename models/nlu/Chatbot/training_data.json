@@ -1,0 +1,1517 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "order_pizza_address",
+        "entities": [
+          {
+            "start": 14,
+            "end": 48,
+            "entity": "pizza_del_address",
+            "value": "123 Evergreen Terrace, Springfield"
+          }
+        ],
+        "text": "My address is 123 Evergreen Terrace, Springfield"
+      },
+      {
+        "intent": "order_pizza_address",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "entity": "pizza_del_address",
+            "value": "123 Evergreen Terrace, Springfield"
+          }
+        ],
+        "text": "123 Evergreen Terrace, Springfield"
+      },
+      {
+        "intent": "order_pizza_address",
+        "entities": [
+          {
+            "start": 8,
+            "end": 42,
+            "entity": "pizza_del_address",
+            "value": "123 Evergreen Terrace, Springfield"
+          }
+        ],
+        "text": "address 123 Evergreen Terrace, Springfield"
+      },
+      {
+        "intent": "order_pizza_address",
+        "entities": [
+          {
+            "start": 18,
+            "end": 52,
+            "entity": "pizza_del_address",
+            "value": "123 Evergreen Terrace, Springfield"
+          }
+        ],
+        "text": "note down address 123 Evergreen Terrace, Springfield"
+      },
+      {
+        "intent": "order_pizza_address",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "pizza_del_address",
+            "value": "sector 62, noida"
+          }
+        ],
+        "text": "sector 62, noida"
+      },
+      {
+        "intent": "order_pizza_address",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_del_address",
+            "value": "noida"
+          }
+        ],
+        "text": "noida"
+      },
+      {
+        "intent": "order_pizza_confirm",
+        "text": "ok"
+      },
+      {
+        "intent": "order_pizza_confirm",
+        "text": "yes"
+      },
+      {
+        "intent": "order_pizza_confirm",
+        "text": "yes please"
+      },
+      {
+        "intent": "order_pizza_confirm",
+        "text": "great"
+      },
+      {
+        "intent": "order_pizza_confirm",
+        "text": "ok thank you"
+      },
+      {
+        "intent": "order_pizza_confirm",
+        "text": "ok thanks"
+      },
+      {
+        "intent": "order_pizza_confirm",
+        "text": "ok, sure"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good evening"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good evening to you"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hey good evening"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hello good evening"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "evening"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good evening there"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good morning"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "have a nice morning"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "have a great morning"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "morning"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good morning there"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "top of the morning to you"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "a good morning"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hi good morning"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "and a good morning to you"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good morning too"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "sweet dreams"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good night"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "have a good night"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good night to you"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "thank you good night"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "bye good night"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good night bye"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good good night"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good night for now"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "goodnight"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "night"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "thanks goodnight"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good night see you tomorrow"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "alright goodnight"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "good tonight"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "okay have a good night"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "long time no see"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hello"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hi"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "howdy"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hey there"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hey"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "greetings"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "I greet you"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hi there"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hello there"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hello again"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "a good day"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "afternoon"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "hello hi"
+      },
+      {
+        "intent": "order_pizza_greetings",
+        "text": "heya"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "okay see you later"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "hope to see you later"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "till next time"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "I must go"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "see you"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "see you soon"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "bye bye see you"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "bye bye see you soon"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "bye bye take care"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "I said bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "never mind bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "now bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "that's all goodbye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "that's it goodbye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "leave me alone"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "go to bed"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "goodbye for now"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "you can go now"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "get lost"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "goodbye see you later"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "alright bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "see ya"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "thanks bye bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "okay thank you bye"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "see you tomorrow"
+      },
+      {
+        "intent": "order_pizza_greetings_bye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "entity": "size",
+            "value": "large"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "entity": "topping",
+            "value": "olives"
+          }
+        ],
+        "text": "I want to order large pizza with olives"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "entity": "size",
+            "value": "small"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "entity": "topping",
+            "value": "olives"
+          }
+        ],
+        "text": "I like small olvs pizza"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "topping",
+            "value": "pepperoni"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "entity": "size",
+            "value": "small"
+          }
+        ],
+        "text": "pepperoni smll pizza"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "entity": "size",
+            "value": "large"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "topping",
+            "value": "cheese"
+          }
+        ],
+        "text": "wnt to oder lrg chezze piza"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "entity": "size",
+            "value": "medium"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "entity": "topping",
+            "value": "tomatoes"
+          }
+        ],
+        "text": "wnt to odr mdim tamatas pija"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "entity": "size",
+            "value": "small"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "entity": "topping",
+            "value": "corn"
+          }
+        ],
+        "text": "wnt to ordr least carn pijja"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "entity": "size",
+            "value": "large"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "topping",
+            "value": "pepperoni"
+          }
+        ],
+        "text": "wont laarg peper pijaa"
+      },
+      {
+        "intent": "order_pizza_provide_all",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "entity": "size",
+            "value": "medium"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "topping",
+            "value": "onions"
+          }
+        ],
+        "text": "wnt mdm onins piza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i want pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "may i have a pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i need pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "lemme have pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "ndikuda pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "ngifun ipizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "ndoda pizzza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "will have a pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "me want pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "order pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i want to order pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "make a pizza order"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "some pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "order"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "am hungry"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "hungry"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i want lunch"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i want to eat"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i wnt pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "may i hv pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i wnt order pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i nid sm pizza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i wnt to eat"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "i want piza"
+      },
+      {
+        "intent": "order_pizza_provide_none",
+        "text": "Hello, I’d like to order a pizza, please."
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "I want large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "I want to order large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "I like to order large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "I would like to order large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "take order for large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "provide large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "large will be good"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "large is good"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "large is good to go"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "ok write down large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "ok give me large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "ok deliver large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "deliver large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "deliver large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "take order for large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "write down large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "write large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "I like to order large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "I would like to order large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "please provide large"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "please provide large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_size",
+            "value": "large"
+          }
+        ],
+        "text": "please send me large one"
+      },
+      {
+        "intent": "order_pizza_provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_size",
+            "value": "small"
+          }
+        ],
+        "text": "small"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "I want onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "I want to order onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "I like to order onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "I would like to order onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "take order for onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "provide onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "onion will be good"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "onion is good"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "onion is good to go"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "ok write down onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "ok give me onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "ok deliver onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "deliver onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "deliver onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "take order for onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "write down onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "write onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "I like to order onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "I would like to order onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "please provide onion"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "please provide onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "pizza_toppings",
+            "value": "onion"
+          }
+        ],
+        "text": "please send me onion one"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "pizza_toppings",
+            "value": "corn"
+          }
+        ],
+        "text": "corn"
+      },
+      {
+        "intent": "order_pizza_provide_toppings",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "pizza_toppings",
+            "value": "paneer"
+          }
+        ],
+        "text": "paneer"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "I want Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "I want to order Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "I like to order Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "I would like to order Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "take order for Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "provide Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "Margherita will be good"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "Margherita is good"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "Margherita is good to go"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "ok write down Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "ok give me Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "ok deliver Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "entity": "pizza_type",
+            "value": "Margherita"
+          }
+        ],
+        "text": "deliver Margherita"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "pizza_type",
+            "value": "Veg Extravaganza"
+          }
+        ],
+        "text": "Veg Extravaganza"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "pizza_type",
+            "value": "veg extravaganza"
+          }
+        ],
+        "text": "Veg Extravaganza"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "pizza_type",
+            "value": "veg extravaganza"
+          }
+        ],
+        "text": "veg extravaganza"
+      },
+      {
+        "intent": "cold_drink_pizza",
+        "text": "i want to order cold drink with pizza"
+      },
+      {
+        "intent": "order_pizza_provide_type",
+        "text": "i want to order pizza with panner"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

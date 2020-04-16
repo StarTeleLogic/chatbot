@@ -1,0 +1,46 @@
+%YAML 1.1
+---
+actions:
+- action_your_plan
+- utter_greet
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_order_pizza_ask_help
+- utter_order_pizza_ask_address
+- utter_order_pizza_ask_type
+- utter_order_pizza_ask_size
+- utter_order_pizza_ask_toppings
+- utter_order_pizza_confirm_order
+- action_new_plan
+- utter_pizza_order_action
+- utter_order_pizza_bye
+ 
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- order_pizza_provide_toppings:
+    use_entities: true
+- order_pizza_provide_size:
+    use_entities: true
+- order_pizza_provide_none:
+    use_entities: true
+- order_pizza_greetings_bye:
+    use_entities: true
+- order_pizza_address:
+    use_entities: true
+- order_pizza_confirm:
+    use_entities: true
+- order_pizza_provide_type:
+    use_entities: true
+- order_pizza_greetings:
+    use_entities: true
+- cold_drink_pizza:
+    use_entities: true
+- order_pizza_provide_all:
+    use_entities: true
+slots: {}
+templates: {}

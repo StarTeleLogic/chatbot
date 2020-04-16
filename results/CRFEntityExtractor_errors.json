@@ -1,0 +1,14 @@
+[
+  {
+    "text": "paneer",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "paneer",
+        "entity": "pizza_toppings"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
